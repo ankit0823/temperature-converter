@@ -1,0 +1,123 @@
+body{
+}
+
+.container{
+
+    background-color: white;
+    margin-left: 30%;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 20px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+
+}
+ h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+ }
+
+ h1 span{
+    margin-left: 10px;
+ }
+
+ form{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+
+ form .form-group{
+    display: block;
+    position: relative;
+    list-style: none;
+ }
+
+ #p{
+    margin-left: -20px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(145, 146, 147);
+ }
+
+ #t{
+    margin-left: -20px; 
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    position: relative;
+    font-size: 20px;
+  
+ }
+ 
+ #type{
+    margin-top: -20px;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    color: rgb(145, 146, 147);
+
+ }
+
+ #mylist{
+    position: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: 100;
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+    margin-bottom: -5px;
+    
+ }
+
+ option{
+    background: none;
+
+}
+
+ button{
+    width: 400px;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgb(112, 182, 210);
+    margin-left: 75px;
+    margin-top: 200px;
+ }
+
+
+
+ h4{
+
+    margin-top: -150px;
+    margin-left: 50px;
+ }
+
+ #result{
+    border-bottom: 2px solid gray;
+    font-size: 27px;
+
+ }
+
+ #display{
+    color: gray;
+    font-size: 27px;
+    font-weight: 400;
+ }
